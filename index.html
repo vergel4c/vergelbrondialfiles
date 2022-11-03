@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"/>
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"/>
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css"
+  rel="stylesheet"/>
+
+</head>
+<body>
+    
+<div class="hero" id="hero">
+    <header>
+        <nav>
+            <img src="logo3.png" width="350px" height="120px">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "#info">About</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#contact_me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="detel">
+            <h1>Hi! I'm Vergel<span> Brondial</span></h1>
+            <p>Welcome to my offical portfolio website
+                <br>Details and Work Experience 
+            </p><br>
+       
+            <a href="updated_cv.pdf" download="Vergel Brondial CV">DOWNLOAD CV</a>
+        </div>
+        <div>
+            <img src="profile_pic.png" height="100%" class="shape">
+        </div>
+</div>
+<div>
+    <section class="text-center" id="about_us">
+        <h1 class="text-primary about_me">About Me</h1>
+    </section>
+</div>
+<div class="info" id="info">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 picture ">
+                <img src="2x2.png" width="300px" height="300px">
+              </div>
+              <div class="col-6">
+                <p class="introduction alert alert-info">My Name is Vergel Brondial. I am a freelance web developer that specializes in both front-end and back-end development. I also do full stack web development. </p>
+              </div>          
+        </div>
+    </div>
+</div>
+<div class="portfolio">
+  <section class="text-center text-primary">
+    <h1 id="portfolio">Portfolio</h1><br>
+      <div class="container">
+                <div class="row container-fluid ">
+                    <div class="col-12 col-md-6 col-lg-4 bg-image hover-zoom">
+                      <a href=""><img src="123.png" width="300px" height="250px"></a>
+                        <h5 class="card-title"><br>Verg Realty</h5>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 bg-image hover-zoom">
+                        <a href=""><img src="laloka-high-resolution-color-logo.png" width="300px" height="250px"></a>
+                        <h5 class="card-title"><br>Laloka (Coming Soon!)</h5>
+                    </div>
+                  
+                    <div class="col-12 col-md-6 col-lg-4 bg-image hover-zoom">
+                            <a href=""><img src="collateral.png" width="300px" height="250px"  ></a>
+                            <h5 class="card-title"><br>Collateral (Coming Soon!)</h5>
+                  </div>
+         </div>
+  </section>
+</div>
+<div class="container-fluid services">
+    <section class="text-center text-primary">
+        <h1 id="services">Services</h1><br>
+          <div class="container">
+            <div class="row container-fluid ">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <img src="frontend_logo.png" width="150px" height="150x" ">
+                  <h5 class="card-title"><br>Front End Development</h5>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <img src="backend_logo.png" width="150px" height="150px" >
+                  <h5 class="card-title"><br>Back End Development</h5>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-4">
+                      <img src="fullstack_developer.png" width="150px" height="150px"  >
+                      <h5 class="card-title"><br>Full Stack Development</h5>
+                </div>
+            </div>
+          </div>
+    </section>
+</div><br>
+<div class="contact_me">
+    <section class="text-center text-primary">
+        <h1>Contact Me</h1>
+</section>
+<div class="container-fluid">
+      <form class="form" id="form">
+          <label for="firstName" class="row g-3 table-responsive justify-content-center">First Name</label>
+          <div class='col-md-12'>
+          <input id="firstName" type="text" name='firstName'required>
+          </div>
+          <br>
+
+
+          <label for="lastName" class="row g-3 table-responsive justify-content-center">Last Name</label>
+          <div class='col-md-12 justify-content-start'>
+          <input id="lastName" type="text" name="lastName" required>
+          </div>
+          <br>
+
+          <label for="Email" class="row g-3 table-responsive justify-content-center">Email</label>
+          <div class='col-md-12'>
+          <input id="email" type="email" name="email"  placeholder='123@gmail.com'required>
+          </div>
+          <br>
+
+          <label for="Message" class="row g-3 table-responsive justify-content-center">Comments or Questions</label><br>
+          <textarea rows="4" cols="35" maxlength="200"
+           name="message" id="message" placeholder='Message'required>
+          </textarea>
+          <br><br>
+
+         <button type="submit" class="button-hook btn btn-primary w-50 text-center" id="send">Submit</button><br><br>
+         <button class="btn btn-primary w-50 text-center" id="reset">Reset</button>
+
+        </form>
+</div>
+<footer class="bg-info text-center text-white" id="contact_me">
+ 
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+     
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/vjtbrondial/" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/VergeBrondial" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+    
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/bestcondoguyph/?hl=en!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/vergel-brondial-462726180/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/vergel4c/vergel4cgithub.io!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+   
+  </div>
+  
+
+  
+  <div class="text-center p-3" style="background-color: lightblue">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">VergFreelanceDeveloper.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<script src="javascript1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

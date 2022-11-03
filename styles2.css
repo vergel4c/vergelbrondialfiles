@@ -1,0 +1,205 @@
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*Home part */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 30px 30;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 999;
+    height: 22.5%;
+   background-color: lightblue;
+   width: 100%;
+   
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+   
+}
+
+
+nav ul li a:hover {
+
+color: rgb(0, 139, 0);
+
+
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+
+}
+
+.detel h1{
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+span {
+
+    color: rgb(0, 147, 235);
+
+}
+
+.detel p {
+    color: lightslategray;
+    line-height: 22px;
+    font-size:medium;
+
+}
+
+.detel a {
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:  white;
+    
+}
+
+
+.shape {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+}
+
+
+.images:hover .shape {
+    bottom: 40px;
+
+}
+
+
+/*About section */
+
+
+#about_us {
+position: relative;
+margin-top: -20px;
+height: 10vh;
+
+
+}
+
+.about_me {
+padding-top: 2vh;
+}
+
+.info {
+height: 60vh;
+padding:  10px 0;
+display: block;
+margin-left: 15%;
+width: 70%;
+
+  }
+
+ .introduction {
+    margin-top: 100px;
+    font-size: larger;
+  
+ }
+
+
+ /*Portfolio */
+
+ .portfolio {
+    height: 80vh;
+    position:relative;
+
+ }
+
+
+
+ .contact_me {
+    height: 80vh;
+    position:relative;
+    margin-top: 10%;
+ }
+
+
+.form {
+
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 550px;
+    padding: 40px;
+    position: relative;
+    margin-left: 33%;
+    background-color: lightblue;
+    border-radius: 1rem ;
+    margin-top: 5%;
+}
+
+
+
+
+.form input[type = "text"], .form input[type="password"], .form input[type="email"]  {
+border: 2px solid #2ecc71;
+background: white;
+display:block;
+margin: 0px auto ;
+text-align: center;
+padding: 14px 10px;
+width: 400px;
+height: 5px;
+border-radius: 1rem ;
+
+}
+
+textarea {
+
+    border-radius: 0.5rem ;  
+    text-align: center; 
+    width: 400px;
+}
+
+button {
+    position:absolute;
+    left: 25%;
+}
+
+
+footer {
+position: relative;
+margin-top: 10%;
+
+
+}
