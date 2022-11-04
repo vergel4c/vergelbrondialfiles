@@ -7,7 +7,7 @@
 /*Home part */
 
 .head_logo {
-margin-left: 5%;
+margin-left: 10%;
 
 }
 
@@ -33,7 +33,7 @@ nav {
     top: 0%;
     width: 100%;
     z-index: 999;
-    height: 22.5%;
+    height: 18%;
    background-color: lightblue;
    width: 100%;
    
