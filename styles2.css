@@ -33,7 +33,7 @@ nav {
     top: 0%;
     width: 100%;
     z-index: 999;
-    height: 18%;
+    height: 15%;
    background-color: lightblue;
    width: 100%;
    
@@ -169,7 +169,7 @@ width: 70%;
     height: 490px;
     padding: 40px;
     position: relative;
-    margin-left: 33%;
+    margin-left: 35%;
     background-color: lightblue;
     border-radius: 1rem ;
     
